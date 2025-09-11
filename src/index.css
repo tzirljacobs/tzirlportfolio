@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Project Image Hover Effects */
+.project-image {
+  @apply transition-transform duration-300 ease-out;
+}
+
+.project-image:hover {
+  @apply scale-[1.02] shadow-lg;
+}
+
+/* Loading Animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
