@@ -12,9 +12,13 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           to="/"
-          className="text-xl font-poppins font-bold text-navy hover:text-accent transition-colors"
+          className="flex items-center"
         >
-          TJ
+          <img 
+            src="/logo.png" 
+            alt="TJ Logo" 
+            className="h-10 w-10 object-contain"
+          />
         </Link>
 
         {/* Desktop Navigation */}

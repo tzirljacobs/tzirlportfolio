@@ -27,7 +27,8 @@ function App() {
         <Route path="/projects/ux-case-study" element={<UXCaseStudy />} />
         <Route path="/projects/portfolio" element={<Portfolio />} />{' '}
         {/* Add this line with your other project routes */}
-        <Route path="/projects/ai-comparator" element={<AIComparator />} /> {/* New route for AI Comparator */}
+        <Route path="/projects/ai-comparator" element={<AIComparator />} />{' '}
+        {/* New route for AI Comparator */}
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer /> {/* ✅ Shows on every page */}
