@@ -10,9 +10,19 @@ export default function Home() {
 
       <section className="bg-softwhite py-16 px-6 text-navy">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">
+          <h2 className="text-3xl font-bold mb-3 text-center">
             Featured Projects
           </h2>
+
+          <p className="text-center text-slate-600 mb-10">
+            A curated selection of my work.{' '}
+            <Link
+              to="/projects"
+              className="text-accent underline hover:text-navy"
+            >
+              View all projects →
+            </Link>
+          </p>
 
           <div className="grid md:grid-cols-2 gap-10">
             {/* CycleAway */}

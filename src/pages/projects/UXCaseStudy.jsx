@@ -24,7 +24,8 @@ export default function UXCaseStudy() {
     ],
     technologies: ['UX Process', 'Personas', 'Prototyping', 'Testing'],
     liveLink:
-      'https://www.canva.com/design/DAF1OpYpNDA/ZGZYpTzAKKnQwZ0U27F7dg/view?utm_content=DAF1OpYpNDA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      'https://www.canva.com/design/DAFyJ0f_eVg/C6LUSJp6U5bH58mFxqtiBw/view?utm_content=DAFyJ0f_eVg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd9e9ebe802',
+
     liveLinkText: 'View Case Studies',
     images: [
       {

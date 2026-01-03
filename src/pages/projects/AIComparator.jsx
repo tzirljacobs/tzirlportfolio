@@ -38,7 +38,8 @@ export default function AIComparator() {
       'Modern JavaScript',
       'Interactive UI',
     ],
-    status: 'Coming Soon',
+    liveLink: 'https://ai-design-tools-comparator.vercel.app/',
+
     images: [
       {
         url: '/projects/ai-comparator/main.jpg',
